@@ -4,5 +4,6 @@ class App < Sinatra::Base
   
   configure do 
     enable :session 
-    seisson
+    set session_secret
+  end 
 end
